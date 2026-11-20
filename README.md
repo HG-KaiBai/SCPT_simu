@@ -2,6 +2,8 @@
 
 SCPT_simu compares methods for estimating survival curves from censored event times. It includes an R simulation study of **SurvPT 0.4.2**, a single-core timing benchmark, and two applications to interval-censored data. SurvPT fits a finite Pólya tree by maximum a posteriori estimation with EM and uses a data-augmentation Gibbs sampler for pointwise credible intervals.
 
+The companion [SurvPT](https://github.com/HG-KaiBai/SurvPT) repository contains the R package source code, installation instructions, and usage documentation.
+
 ## Explore the results
 
 | Study | What was measured | Saved results |
