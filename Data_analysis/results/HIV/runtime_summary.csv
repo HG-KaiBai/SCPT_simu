@@ -1,0 +1,6 @@
+"method","runs","total_seconds","mean_seconds"
+"SurvPT",2,1.554,0.777
+"Fiducial",2,37.151,18.5755
+"MPT",2,6.001,3.0005
+"TBP",2,7.212,3.606
+"Turnbull",2,0.0200000000000067,0.0100000000000033

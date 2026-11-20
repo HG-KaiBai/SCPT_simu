@@ -1,0 +1,20 @@
+# Each subdirectory of simu_runs is a run. Keep aggregate tables at every level.
+/simu_runs/*/**
+!/simu_runs/*/**/
+!/simu_runs/*/**/summary.csv
+!/simu_runs/*/**/*_summary.csv
+
+# Frozen source and package inputs for reproducing the archived analyses.
+!/simu_runs/*/source/**
+!/simu_runs/*/packages/**
+!/simu_runs/*/time_evaluation/source/**
+
+# Data-analysis output, including separate rerun directories.
+**/Data_analysis/results/**
+!**/Data_analysis/results/**/
+!**/Data_analysis/results/**/summary.csv
+!**/Data_analysis/results/**/*_summary.csv
+
+*.rds
+chunks/
+method_errors/
